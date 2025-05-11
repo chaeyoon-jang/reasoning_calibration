@@ -1,0 +1,1 @@
+python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/nr_math_base_2025-04-15T16-20-58' --data_name 'math' --c_type 'base' --batch_size 32 --reasoning False --seed 0 --do_sample False --suffix True 

@@ -1,0 +1,4 @@
+python llama_test.py --data_path "/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-30T14-04-24/base_evaluation/gsm_test.csv" --save_path "no_kl_random_base" --conf_col "conf"
+python llama_test.py --data_path "/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-30T14-54-47/base_evaluation/gsm_test.csv" --save_path "kl_random_base" --conf_col "conf"
+python llama_test.py --data_path "/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-30T15-42-37/prefix_evaluation/gsm_test.csv" --save_path "no_kl_random_prefix"
+python llama_test.py --data_path "/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-30T16-31-21/prefix_evaluation/gsm_test.csv" --save_path "kl_random_prefix"

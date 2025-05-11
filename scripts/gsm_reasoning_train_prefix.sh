@@ -1,0 +1,3 @@
+python -m experiments.train.base_sft --c_type "prefix" --seed 0 --batch_size 1 --max_steps 5000 --reasoning True --kl_decay 0.0
+python -m experiments.train.base_sft --c_type "prefix" --seed 0 --batch_size 1 --max_steps 5000 --reasoning True --kl_decay 1.0 --kl_type "answer_kl"
+python -m experiments.train.base_sft --c_type "prefix" --seed 0 --batch_size 1 --max_steps 5000 --reasoning True --kl_decay 1.0 --kl_type "cot_kl"

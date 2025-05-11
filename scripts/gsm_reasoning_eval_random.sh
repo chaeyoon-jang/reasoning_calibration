@@ -1,0 +1,7 @@
+python -m experiments.make_lm_outputs --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True 
+#python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-23T04-29-43' --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True
+#python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-23T06-53-51' --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True
+
+python -m experiments.make_lm_outputs --data_name 'gsm' --c_type 'prefix' --batch_size 32 --reasoning True --seed 0 --do_sample False 
+#python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-23T04-29-43' --data_name 'gsm' --c_type 'prefix' --batch_size 32 --reasoning True --seed 0 --do_sample False 
+#python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-04-23T06-53-51' --data_name 'gsm' --c_type 'prefix' --batch_size 32 --reasoning True --seed 0 --do_sample False 

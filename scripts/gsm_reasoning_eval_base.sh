@@ -1,0 +1,3 @@
+python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/2025-05-09T14-02-19' --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True 
+#python -m experiments.make_lm_outputs --query_peft_dir './logs/r_base_seed_1_2025-04-17T20-09-53' --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True
+#python -m experiments.make_lm_outputs --query_peft_dir './logs/r_base_seed_2_2025-04-18T00-53-57' --data_name 'gsm' --c_type 'base' --batch_size 32 --reasoning True --seed 0 --do_sample False --suffix True

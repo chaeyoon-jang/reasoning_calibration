@@ -1,0 +1,3 @@
+python -m experiments.make_lm_outputs --query_peft_dir '/mnt/home/chaeyun-jang/reasoning_calibration/logs/math_nr_cont_2025-04-15T16-21-20' --data_name 'math' --c_type 'continuous' --batch_size 32 --reasoning False --seed 0 --do_sample False #--model_name "meta-llama/Llama-3.2-1B-Instruct" 
+#python -m experiments.make_lm_outputs --query_peft_dir './logs/2025-04-10T20-31-33' --c_type 'continuous' --batch_size 32 --reasoning False --seed 0 --do_sample False #--model_name "meta-llama/Llama-3.2-1B-Instruct"
+#python -m experiments.make_lm_outputs --query_peft_dir './logs/2025-04-11T01-42-08' --c_type 'continuous' --batch_size 32 --reasoning False --seed 0 --do_sample False #--model_name "meta-llama/Llama-3.2-1B-Instruct"
